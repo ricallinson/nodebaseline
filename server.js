@@ -15,7 +15,7 @@ if (cluster.isMaster) {
 		body = '<h1>Hello world</h1>\n';
 		res.writeHead(200, {
 			'Content-Length': body.length,
-			'Content-Type': 'text/plain'
+			'Content-Type': 'text/html;charset=utf-8'
 		});
 		res.end(body);
 	}).listen(8080);
