@@ -2,17 +2,13 @@
 
 This is a simple _hello world_ HTTP Node.js server to find a baseline number for performance comparisons.
 
-## Install Jmm
-
-Requires [Node.js](https://nodejs.org/).
-
 ## Run Test
 
-Start the server with the following;
+Requires [Node.js](https://nodejs.org/). Start the server with the following;
 
 	node server.js
 
-The test will print the number of cores and threads the server is using;
+The test will print the number of cores and processes the server is using;
 
 	Server started, using 4 cores and 8 processes...
 
@@ -35,3 +31,7 @@ The test was run on a MacBook Pro (Retina, 13-inch, Mid 2014), 3 GHz Intel Core 
 	Time per request:       0.217 [ms] (mean)
 	Time per request:       0.027 [ms] (mean, across all concurrent requests)
 	Transfer rate:          5297.87 [Kbytes/sec] received
+
+## Problems Found
+
+None.
